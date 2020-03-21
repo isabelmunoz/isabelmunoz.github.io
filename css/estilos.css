@@ -3,6 +3,7 @@ body{
     font-family: 'Baloo 2', cursive;
 }
 
+/* SECCION MENU-CABECERA*/
 header .contenedor{
  display: flex;
  justify-content: space-between;
@@ -58,13 +59,14 @@ h2{
     text-align: center;
 }
 
-.contenedor-titulo a {
+.contenedor-titulo a , #sobre-mi a {
     font-size: 14px;
     color: #fff;
     background: #5cb8ff;
     padding: 14px 24px;
     display: inline-block;
     text-decoration: none;
+    border-radius: 25px;
 }
 
 p.logo {
@@ -75,3 +77,21 @@ p.logo {
 nav ul li a{
     color: #fff;
 }
+
+/* SECCION SOBRE MI*/
+h3 {
+    text-align: center;
+    font-size: 55px;
+    font-weight: normal;
+    padding: 70px 0;
+}
+
+#sobre-mi .contenedor-sobremi{
+    display: flex;
+    justify-content: space-around;
+}
+
+#sobre-mi .texto{
+    width: 42%;
+}
+
