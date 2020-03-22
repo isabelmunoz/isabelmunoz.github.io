@@ -104,13 +104,12 @@ h3 {
 }
 
 .imagenes-skills{
-    padding: 50px 0;;
+    padding: 50px 0;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
 }
-.imagenes-skills div{
-    display: inline-block;  
-    margin: 0 24px;   
-}
-
 .img-html5, .img-bootstrap{
     width: 120px;
 
@@ -125,16 +124,18 @@ h3 {
     height: 120px;
 }
 .img-html5,.img-css3,.img-php, .img-git{
-    position: relative;
-    top: -70px;
+    position: absolute;
+    top: 90px;
+   
 }
 .img-js, .img-bootstrap, .img-wp{
-    position: relative;
-    top: 30px;
+    position: absolute;
+    top: 0px;
 }
 .imagenes-skills div img{
     border-radius: 50%;
     border: 4px solid rgb(149, 228, 89, 0.8); 
+    box-shadow: 1px 15px 12px #666; 
 }
 
 .imagenes-skills div img:hover{
