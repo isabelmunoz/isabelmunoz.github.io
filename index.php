@@ -14,6 +14,7 @@
 
   </head>
   <body>
+    <a id="whatsapp" href="https://wa.me/56950129707"><img src="imagenes/whatsapp.png" alt=""></a>
     <header>
     <div class="menu">
       <div class="contenedor">
@@ -95,12 +96,26 @@
           <input type="submit" value="ENVIAR">
         </form>
             <?php } ?>
+            <div class="contacto-info">
+                <div class="mail"><img src="imagenes/mail.png" alt="imagen de email">isabelmunozq@gmail.com</div>
+                <div class="whatsapp"><img src="imagenes/whatsapp.png" alt="imagen de whatsapp">+56950129707</div>
+            </div>
       </div>
     </section>
 
-
-
   </main>
+  <footer>
+  <div class="contenedor">
+        <div class="redes">
+           <a href="#"><img src="imagenes/linkedin.png" alt="imagen de linkedin"></a>
+           <a href="#"><img src="imagenes/github.png" alt="imagen de github"></a>
+           <a href="#"><img src="imagenes/facebook.png" alt="imagen de facebook"></a>
+        </div>
+        <div class="parrafo">
+        <p>© 2020 Isabel Muñoz | Ingeniera en Redes & Diseñador web Front End.</p>
+        </div>
+  </div>
+  </footer>
 
     <!-- JavaScript -->
     <script
