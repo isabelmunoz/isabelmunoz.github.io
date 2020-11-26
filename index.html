@@ -8,32 +8,33 @@
     <link href="https://fonts.googleapis.com/css?family=Baloo+2&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="owl/owl.carousel.min.css">
     <link rel="stylesheet" href="owl/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/estilos.css">
   
     <title>Isabel Muñoz Portafolio</title>
 
   </head>
   <body>
-    <a id="whatsapp" href="https://wa.me/56950129707"><img src="imagenes/whatsapp.png" alt=""></a>
+    <a id="whatsapp" href="https://wa.me/56937507559"><img src="imagenes/whatsapp.png" alt=""></a>
     <header>
     <div class="menu">
       <div class="contenedor">
         <p class="logo">Isabel Muñoz</p>
         <nav>
           <ul>
-            <li><a href="">Sobre mi</a></li>
-            <li><a href="">Skills</a></li>
-            <li><a href="">Mis Trabajos</a></li>
-            <li><a href="">Contacto</a></li>
+            <li><a href="#sobre-mi">Sobre mi</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#mis-trabajos">Mis Trabajos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
           </ul>
         </nav>
       </div>
     </div>
     <div class="contenedor" id="contenedor-titulo-flex">
       <div class="contenedor-titulo">
-        <h1>Isabel Muñoz</h1>
-        <h2>Desarrolladora web Front End</h2>
-        <a href="">VER MIS TRABAJOS</a>
+        <h1 class="animated rubberBand">Isabel Muñoz</h1>
+        <h2 class="animated tada">Desarrolladora Full Stack</h2>
+        <a class="animated tada" href="#mis-trabajos">VER MIS TRABAJOS</a>
       </div>
     </div>
   </header>
@@ -42,14 +43,14 @@
       <div class="contenedor">
         <h3>Sobre mi</h3>
         <div class="contenedor-sobremi">
-          <div class="computadoras">
-            <img src="imagenes/computadoras.png" alt="">
+          <div class="computadoras animated fadeInLeft">
+            <img src="imagenes/computadoras.png" alt="imagen de computadoras">
           </div>
-          <div class="texto">
-            <p>Hola, mi nombre es Isabel Muñoz soy títulada de Ingeniería en Redes y además soy desarrolladora Front End, por ahora tengo experiencia en desarrollo de sitios web para emprendedores y algunos proyectos menores.</p>
+          <div class="texto animated fadeInRight">
+            <p>Hola, mi nombre es Isabel Muñoz soy títulada de Ingeniería en Redes,desarrolladora Front End y Full Stack Java, por ahora tengo experiencia en desarrollo de sitios web para emprendedores y algunos proyectos menores.</p>
             <p>Actualmente me encuentro investigando y sigo aprendiendo sobre nuevas tecnologías de forma autodidacta para complementar mis conocimientos y también siguiendo cursos en línea.</p>
             <p>Me pueden contactar a mi numero telefónico, en redes sociales o a través del formulario de contacto al pie de mi sitio web.</p>
-            <a href="">VER MIS TRABAJOS</a>
+            <a href="#contacto">CONTÁCTAME</a>
           </div>
         </div>
       </div>
@@ -58,13 +59,13 @@
       <div class="contenedor">
         <h3>Skills</h3>
         <div class="imagenes-skills">
-          <div><img class="img-html5" src="imagenes/html5.png" alt=""></div>
-          <div><img class="img-js" src="imagenes/js.png" alt=""></div>
-          <div><img class="img-css3" src="imagenes/css3.png" alt=""></div>
-          <div><img class="img-bootstrap" src="imagenes/bootstrap.png" alt=""></div>
-          <div><img class="img-php" src="imagenes/php.png" alt=""></div>
-          <div><img class="img-wp" src="imagenes/wp.png" alt=""></div>
-          <div><img class="img-git" src="imagenes/git.png" alt=""></div>
+          <div><img class="img-html5" src="imagenes/html5.png" alt="imagen de html"></div>
+          <div><img class="img-js" src="imagenes/js.png" alt="imagen de js"></div>
+          <div><img class="img-css3" src="imagenes/css3.png" alt="imagen de css"></div>
+          <div><img class="img-bootstrap" src="imagenes/bootstrap.png" alt="imagen de bootstrap"></div>
+          <div><img class="img-php" src="imagenes/php.png" alt="imagen de php"></div>
+          <div><img class="img-wp" src="imagenes/wp.png" alt="imagen de wordpress"></div>
+          <div><img class="img-git" src="imagenes/git.png" alt="imagen de git"></div>
         </div>
       </div>
     </section>
@@ -79,14 +80,6 @@
       </div>
     </section>
     <section id="contacto">
-    <?php
-      if(@$_GET['i']=='ok') { ?>
-
-      <h3>Su mensaje a sido enviado correctamente. Responderé a la brevedad.</h3>
-
-      <?php
-      } else{
-      ?>
       <div class="contenedor">
         <h3>Contacto</h3>
         <form action="envio-formulario.php" method="post" enctype="multipart/form-data">
@@ -95,10 +88,9 @@
           <textarea placeholder="Mensaje" name="mensaje" required></textarea>
           <input type="submit" value="ENVIAR">
         </form>
-            <?php } ?>
             <div class="contacto-info">
                 <div class="mail"><img src="imagenes/mail.png" alt="imagen de email">isabelmunozq@gmail.com</div>
-                <div class="whatsapp"><img src="imagenes/whatsapp.png" alt="imagen de whatsapp">+56950129707</div>
+                <div class="whatsapp"><img src="imagenes/whatsapp.png" alt="imagen de whatsapp">+56937507559</div>
             </div>
       </div>
     </section>
@@ -112,7 +104,7 @@
            <a href="#"><img src="imagenes/facebook.png" alt="imagen de facebook"></a>
         </div>
         <div class="parrafo">
-        <p>© 2020 Isabel Muñoz | Ingeniera en Redes & Diseñador web Front End.</p>
+        <p>© 2020 Isabel Muñoz | Ingeniera en Redes & Desarrolladora Full Stack.</p>
         </div>
   </div>
   </footer>

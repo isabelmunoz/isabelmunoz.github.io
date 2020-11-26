@@ -25,17 +25,15 @@ $(document).ready(function(){
             $(".menu").css({"position":"fixed"});
             $(".menu").css({"width":"100%"});
             $(".menu").css({"top":"0"});
-            $(".menu").css({"background":"#fff"});
-            $(".menu a").css({"color":"#000"});
-            $(".logo").css({"color":"#000"});
+            $(".menu").css({"background":"rgba(49, 134, 200)"});
             $(".menu").css({"box-shadow":"rgba(70, 66, 66, 0.5) 6px 1px 8px"});
             $(".menu").css({"z-index":"10"});
         }else{
+            $(".menu").css({"height":"80px"});
             $(".menu").css({"position":"relative"});
             $(".menu").css({"background":"transparent"});
             $(".menu").css({"box-shadow":"0 0 0"});
-            $(".menu a").css({"color":"#fff"});
-            $(".logo").css({"color":"#fff"});
         }
     })
 })
+

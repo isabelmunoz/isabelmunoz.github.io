@@ -11,6 +11,7 @@ header .contenedor{
 
 header ul{
     display:flex;
+    font-size: 24px;
 }
 
 header ul li{
@@ -26,7 +27,6 @@ a{
     max-width: 1280px;
     width: 90%;
     margin: auto;
-    padding-top: 30px;
 }
 
 header{
@@ -48,6 +48,8 @@ h1{
     font-size: 60px;
     color: #fff;
     margin:0;
+    text-transform: uppercase;
+    position: relative;
 }
 
 h2{
@@ -55,6 +57,7 @@ h2{
     color: #fff;
     text-align: center;
 }
+
 .contenedor-titulo{
     text-align: center;
 }
@@ -71,7 +74,7 @@ h2{
 
 p.logo {
     color:#fff;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 nav ul li a{
@@ -83,7 +86,6 @@ h3 {
     text-align: center;
     font-size: 55px;
     font-weight: normal;
-    padding: 50px 0;
 }
 #sobre-mi{
     padding-bottom: 30px;
@@ -100,11 +102,10 @@ h3 {
 /*SECCION SKILLS*/
 #skills{
     background: rgb(249, 250, 252);
-    height: 120vh;
+    height: 90vh;
 }
 
 .imagenes-skills{
-    padding: 50px 0;
     position: relative;
     display: flex;
     justify-content: space-around;
@@ -140,9 +141,9 @@ h3 {
 
 .imagenes-skills div img:hover{
 border-radius:50%;
-box-shadow: 0px 0px 10px 10px  rgba(82, 85, 214, 0.8);
-transform:scale(1.2);
-border: none;
+box-shadow: 0px 0px 10px 10px  rgba(149, 228, 89, 0.8);
+transform:scale(1.3);
+box-shadow: 1px 15px 12px #666; 
 }
 
 /*SECCION MIS TRABAJOS*/
@@ -209,13 +210,13 @@ textarea {
 }
 
 .contacto-info img{
-    width: 28px;
+    width: 30px;
     vertical-align: middle;
     margin-right: 10px;
 }
 
 footer {
-    background: #848484;
+    background: rgb(128, 85, 144);
     padding: 40px 0;
     text-align: center;
 }
@@ -227,7 +228,7 @@ footer .contenedor{
 }
 
 footer img{
-    width: 35px;
+    width: 45px;
     margin: 0 40px;
     transform:rotate(0);
     transition: 0.6s;
@@ -241,6 +242,7 @@ footer img:hover{
 footer p{
     color: #fff;
     margin-top: 40px;
+    font-size: 20px;
 }
 
 
@@ -253,3 +255,13 @@ footer p{
 #whatsapp img{
     width: 80px;
 }
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+#mis-trabajos, #sobre-mi,#skills, #contacto{
+    padding: 40px 0;
+}
+
