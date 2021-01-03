@@ -250,12 +250,20 @@ footer p{
     position: fixed;
     top: 80%;
     right: 3%;
+    
 }
 
 #whatsapp img{
     width: 80px;
-}
+    transform:rotate(0);
+    transition: 0.6s;
 
+}
+#whatsapp img:hover{
+    transform: rotate(360deg);
+    transition: 0.6s;
+
+}
 
 html{
     scroll-behavior: smooth;
