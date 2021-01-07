@@ -4,7 +4,7 @@ _Gracias por visitar mi sitio web, aquí encontrarás mi portafolio, si necesita
 
 ## Portafolio 📄
 
-https://raw.githubusercontent.com/isabelmunoz/isabelmunoz.github.io/master/imagenes/miportafolio.png
+![ScreenShot](https://raw.githubusercontent.com/isabelmunoz/isabelmunoz.github.io/master/imagenes/miportafolio.png)
 
 ## Construido con 🛠️
 
