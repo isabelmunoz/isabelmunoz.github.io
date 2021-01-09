@@ -28,8 +28,8 @@ $(document).ready(function(){
             $(".menu").css({"position":"fixed"});
             $(".menu").css({"width":"100%"});
             $(".menu").css({"top":"0"});
-            $(".menu").css({"background":"rgba(49, 134, 200)"});
-            $(".menu").css({"box-shadow":"rgba(70, 66, 66, 0.5) 6px 1px 8px"});
+            $(".menu").css({"background":"rgba(0, 0, 0)"});
+            $(".menu").css({"box-shadow":"rgba(153,0,102, 0.7) 6px 2px 10px"});
             $(".menu").css({"z-index":"10"});
         }else{
             $(".menu").css({"height":"80px"});
